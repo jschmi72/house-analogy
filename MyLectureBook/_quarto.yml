@@ -3,7 +3,7 @@ project:
 
 book:
   title: "MyLectureBook"
-  author: "Norah Jones"
+  author: "Julia Schmid"
   date: "5.11.2025"
   chapters:
     - index.qmd
@@ -22,4 +22,10 @@ format:
     documentclass: scrreprt
 
 editor: visual
+
+project:
+  type: book
+
+publish:
+  site: gh-pages
 
