@@ -76,7 +76,7 @@
     "section": "",
     "text": "4.1 🧰 What You Will Find in Your Workshop (RStudio)\nNow that your workshop is set up and all your tools are installed, it’s time to plan the first version of your house (your Quarto Book) and prepare the land (GitHub) where it will stand.\nIn this chapter, we will:\nLet’s begin!\nWhen you create a Quarto Book project in your workshop, you will see two very important things:\nYou will write your content inside these .qmd files, and adjust the blueprint in _quarto.yml as your house grows.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -86,7 +86,7 @@
     "section": "",
     "text": "📐 The _quarto.yml file\nThis is your blueprint.\nIt describes how your house should be built and how the rooms (chapters) should be arranged.\n🚪 .qmd files\nThese are the rooms of your house — each .qmd file is one chapter or section of your book.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -96,7 +96,7 @@
     "section": "4.2 🚚 Buy the Delivery Truck (Install GitHub Desktop)",
     "text": "4.2 🚚 Buy the Delivery Truck (Install GitHub Desktop)\nTo get your blueprints and building materials from your workshop to the land, you need a delivery truck.\nThis truck is called GitHub Desktop.\nIt transports your updated files from RStudio (your workshop) to GitHub (your land).\n➡️ Download GitHub Desktop here:\nhttps://desktop.github.com/\nInstall it like a regular Windows program (Next → Next → Finish).\nOnce installed, your delivery truck is ready to use.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -106,7 +106,7 @@
     "section": "4.3 🌍 Buy the Land (Create Your GitHub Account)",
     "text": "4.3 🌍 Buy the Land (Create Your GitHub Account)\nBefore you can place your house anywhere, you need to own a piece of land.\nIf you don’t have a GitHub account yet, create one:\n➡️ https://github.com/\nThis account is your personal land registry — your plots of land (projects) will be stored here.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -116,7 +116,7 @@
     "section": "4.4 🏡 Prepare a Plot of Land for Your House (Create a Repository)",
     "text": "4.4 🏡 Prepare a Plot of Land for Your House (Create a Repository)\nA repository is like a plot of land where your house (your book project) will be built.\nOnce logged into GitHub:\n\nClick “+” → “New repository”\nGive your land a name (e.g., my-quarto-book)\nChoose Public (so visitors can see your house)\n\nClick Create repository\n\nYour land now exists!",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -126,7 +126,7 @@
     "section": "4.5 🚚 Move Your House Materials to the Land (Commit & Push)",
     "text": "4.5 🚚 Move Your House Materials to the Land (Commit & Push)\nYour workshop and your land are separate places.\nThe delivery truck (GitHub Desktop) moves your house files from the workshop → to your land.\nWhenever you change your blueprint or add new rooms:\n\nOpen GitHub Desktop\nWrite a short summary of what changed\nExample: “Added Chapter 2”\nClick Commit to main\nClick Push origin\n(This sends the materials to the land)\n\nOnly then can the construction worker start rebuilding the house.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   },
   {
@@ -136,7 +136,7 @@
     "section": "4.6 👷 Hire the Construction Worker on the Land (Add publish.yml)",
     "text": "4.6 👷 Hire the Construction Worker on the Land (Add publish.yml)\nThe last step is to hire a construction worker that lives on your land.\nThis worker automatically rebuilds your house whenever new materials arrive by truck.\nThis worker is a small file called: .github/workflows/publish.yml\nYou will add this file on GitHub once your land and workshop are connected.\nThis construction worker:\n\nwatches for new deliveries,\nrebuilds your house,\nand updates the public version of your house for visitors to see.\n\n\nOnce your land is ready, your truck is connected, and your construction worker is hired, you will be able to publish your house online so anyone can visit it on the public street (GitHub Pages).\nIn the next chapter, we will build your first Quarto House in the workshop and send it to the land for the first time!",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
   }
 ]
