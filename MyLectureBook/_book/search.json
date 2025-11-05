@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "2  Chapter 1: 🏠 The House Analogy",
     "section": "",
-    "text": "Before we start building our Quarto book and publishing it online, it’s helpful to understand the house analogy that will guide us through the process.\nIn this analogy:\n\n🧱 .qmd files are the bricks and rooms of your house (your book’s content).\n🧰 RStudio is the workshop where you prepare materials and edit the blueprint.\n🏗️ Quarto is the civil engineer who constructs the house (your book).\n🌍 GitHub is the piece of land where you place your house so others can visit it.\n🚧 GitHub Pages is the public street where people can find and walk through your house online.\n📐 The _quarto.yml file is your blueprint describing how your house should be built.\n🛠️ The publish.yml file (in .github/workflows/) is a construction worker living on your land, who rebuilds the house whenever you make changes.\n\nThis analogy will help you understand each step in a friendly and visual way, even if you are completely new to Quarto or GitHub.",
+    "text": "Before we start building our Quarto book and publishing it online, it’s helpful to understand the house analogy that will guide us through the process.\nIn this analogy:\n\n🧱 R is the hardware store that provides building materials.\n🧰 RStudio is the workshop where you prepare materials, plan rooms and edit the blueprint.\n🏗️ Quarto is the civil engineer who constructs the house (your book).\n🌍 GitHub (website) is the piece of land where you place your house so others can visit it.\n🚚 GitHub Desktop is the delivery truck that delivers materials (your updates) from the workshop to the land.\n🚧 GitHub Pages is the public street where people can find and walk through your house online.\n\nThis analogy will help you understand each step in a friendly and visual way, even if you are completely new to Quarto or GitHub.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: 🏠 The House Analogy</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "setup.html",
     "title": "3  Chapter 2: 🧰 Setting Up Your Workshop",
     "section": "",
-    "text": "3.1 Step 1: 🧱 Install R (the building materials)\nBefore you can start building your Quarto house, you need to set up your workshop — the place where you will write your book, prepare your materials, and update your blueprint.\nJust like a real house needs tools, we need a few digital tools too.\nHere’s what we will install:\nR provides the basic materials that Quarto can use for building your book.\n➡️ Download R here:\nhttps://cran.r-project.org/\nChoose your operating system (Windows, macOS, Linux) and follow the installation instructions.",
+    "text": "3.1 Step 1: 🧱 Install R (the hardware store)\nBefore you can start building your Quarto house, you need to set up your workshop — the place where you will write your book, prepare your materials, and update your blueprint.\nJust like a real house needs tools, we need a few digital tools too.\nHere’s what we will install:\nR provides the basic materials that Quarto can use for building your book.\n➡️ Download R here:\nhttps://cran.r-project.org/\nChoose your operating system (Windows, macOS, Linux) and follow the installation instructions.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: 🧰 Setting Up Your Workshop</span>"
     ]
@@ -64,9 +64,79 @@
     "href": "setup.html#step-3-install-quarto-the-civil-engineer",
     "title": "3  Chapter 2: 🧰 Setting Up Your Workshop",
     "section": "3.3 Step 3: 🏗️ Install Quarto (the civil engineer)",
-    "text": "3.3 Step 3: 🏗️ Install Quarto (the civil engineer)\nQuarto is the expert that knows how to build your book into a real website.\n➡️ Download Quarto here:\nhttps://quarto.org/docs/get-started/\nAfter installation, you can check if it works by opening RStudio and typing this in the Console:\nIf everything is installed correctly, you will see a confirmation message.\n\nOnce you have installed R, RStudio, and Quarto, your workshop is fully set up and you’re ready to start building the first walls of your house (your book chapters)!\nIn the next chapter, we will create the frame of your house by starting a new Quarto Book Project.",
+    "text": "3.3 Step 3: 🏗️ Install Quarto (the civil engineer)\nQuarto is the expert that knows how to build your book into a real website.\n➡️ Download Quarto here:\nhttps://quarto.org/docs/get-started/\nAfter installation, you can check if it works by opening RStudio and typing this in the Console:\nIf everything is installed correctly, you will see a confirmation message.\n\nOnce you have installed R, RStudio, and Quarto, your workshop is fully set up and you’re ready to begin! 🧰✨\nIn the next chapter, we will plan your house (your Quarto book) and prepare the land and delivery truck so you can place it online for visitors to explore. 🌍🚚",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: 🧰 Setting Up Your Workshop</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html",
+    "href": "start_building.html",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "",
+    "text": "4.1 🧰 What You Will Find in Your Workshop (RStudio)\nNow that your workshop is set up and all your tools are installed, it’s time to plan the first version of your house (your Quarto Book) and prepare the land (GitHub) where it will stand.\nIn this chapter, we will:\nLet’s begin!\nWhen you create a Quarto Book project in your workshop, you will see two very important things:\nYou will write your content inside these .qmd files, and adjust the blueprint in _quarto.yml as your house grows.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#what-you-will-find-in-your-workshop-rstudio",
+    "href": "start_building.html#what-you-will-find-in-your-workshop-rstudio",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "",
+    "text": "📐 The _quarto.yml file\nThis is your blueprint.\nIt describes how your house should be built and how the rooms (chapters) should be arranged.\n🚪 .qmd files\nThese are the rooms of your house — each .qmd file is one chapter or section of your book.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#buy-the-delivery-truck-install-github-desktop",
+    "href": "start_building.html#buy-the-delivery-truck-install-github-desktop",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "4.2 🚚 Buy the Delivery Truck (Install GitHub Desktop)",
+    "text": "4.2 🚚 Buy the Delivery Truck (Install GitHub Desktop)\nTo get your blueprints and building materials from your workshop to the land, you need a delivery truck.\nThis truck is called GitHub Desktop.\nIt transports your updated files from RStudio (your workshop) to GitHub (your land).\n➡️ Download GitHub Desktop here:\nhttps://desktop.github.com/\nInstall it like a regular Windows program (Next → Next → Finish).\nOnce installed, your delivery truck is ready to use.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#buy-the-land-create-your-github-account",
+    "href": "start_building.html#buy-the-land-create-your-github-account",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "4.3 🌍 Buy the Land (Create Your GitHub Account)",
+    "text": "4.3 🌍 Buy the Land (Create Your GitHub Account)\nBefore you can place your house anywhere, you need to own a piece of land.\nIf you don’t have a GitHub account yet, create one:\n➡️ https://github.com/\nThis account is your personal land registry — your plots of land (projects) will be stored here.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#prepare-a-plot-of-land-for-your-house-create-a-repository",
+    "href": "start_building.html#prepare-a-plot-of-land-for-your-house-create-a-repository",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "4.4 🏡 Prepare a Plot of Land for Your House (Create a Repository)",
+    "text": "4.4 🏡 Prepare a Plot of Land for Your House (Create a Repository)\nA repository is like a plot of land where your house (your book project) will be built.\nOnce logged into GitHub:\n\nClick “+” → “New repository”\nGive your land a name (e.g., my-quarto-book)\nChoose Public (so visitors can see your house)\n\nClick Create repository\n\nYour land now exists!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#move-your-house-materials-to-the-land-commit-push",
+    "href": "start_building.html#move-your-house-materials-to-the-land-commit-push",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "4.5 🚚 Move Your House Materials to the Land (Commit & Push)",
+    "text": "4.5 🚚 Move Your House Materials to the Land (Commit & Push)\nYour workshop and your land are separate places.\nThe delivery truck (GitHub Desktop) moves your house files from the workshop → to your land.\nWhenever you change your blueprint or add new rooms:\n\nOpen GitHub Desktop\nWrite a short summary of what changed\nExample: “Added Chapter 2”\nClick Commit to main\nClick Push origin\n(This sends the materials to the land)\n\nOnly then can the construction worker start rebuilding the house.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
+    ]
+  },
+  {
+    "objectID": "start_building.html#hire-the-construction-worker-on-the-land-add-publish.yml",
+    "href": "start_building.html#hire-the-construction-worker-on-the-land-add-publish.yml",
+    "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
+    "section": "4.6 👷 Hire the Construction Worker on the Land (Add publish.yml)",
+    "text": "4.6 👷 Hire the Construction Worker on the Land (Add publish.yml)\nThe last step is to hire a construction worker that lives on your land.\nThis worker automatically rebuilds your house whenever new materials arrive by truck.\nThis worker is a small file called: .github/workflows/publish.yml\nYou will add this file on GitHub once your land and workshop are connected.\nThis construction worker:\n\nwatches for new deliveries,\nrebuilds your house,\nand updates the public version of your house for visitors to see.\n\n\nOnce your land is ready, your truck is connected, and your construction worker is hired, you will be able to publish your house online so anyone can visit it on the public street (GitHub Pages).\nIn the next chapter, we will build your first Quarto House in the workshop and send it to the land for the first time!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>start_building</span>"
     ]
   }
 ]
