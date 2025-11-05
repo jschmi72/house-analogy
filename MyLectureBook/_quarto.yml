@@ -9,8 +9,8 @@ book:
     - index.qmd
     - intro.qmd
     - setup.qmd
-    - summary.qmd
     - start_building.qmd
+    - summary.qmd
     - references.qmd
 
 bibliography: references.bib
