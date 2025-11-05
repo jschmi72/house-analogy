@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "MyLectureBook"
+  title: "🏠 The House Analogy Guide to Quarto & GitHub"
   author: "Julia Schmid"
   date: "2025-05-11"
   chapters:
