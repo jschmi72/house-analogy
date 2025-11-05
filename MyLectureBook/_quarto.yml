@@ -10,8 +10,6 @@ book:
     - intro.qmd
     - setup.qmd
     - start_building.qmd
-    - summary.qmd
-    - references.qmd
 
 bibliography: references.bib
 
