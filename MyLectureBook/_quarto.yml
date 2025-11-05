@@ -4,7 +4,7 @@ project:
 book:
   title: "MyLectureBook"
   author: "Julia Schmid"
-  date: "5.11.2025"
+  date: "2025-05-11"
   chapters:
     - index.qmd
     - intro.qmd
@@ -23,8 +23,7 @@ format:
 
 editor: visual
 
-project:
-  type: book
+output-dir: _site
 
 publish:
   site: gh-pages
