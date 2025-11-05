@@ -3,7 +3,7 @@
     "path": "C:/gitHub/my-quarto-book/MyLectureBook/start_building.qmd",
     "project_path": "start_building.qmd",
     "type": "quarto_markdown",
-    "hash": "3459123906",
+    "hash": "2029020654",
     "contents": "",
     "dirty": false,
     "created": 1762362646861.0,
@@ -14,15 +14,15 @@
         "rmdVisualWrapConfigured": "true",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1,0",
+        "cursorPosition": "2,72",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1762365555,
+    "lastKnownWriteTime": 1762368972,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1762365555618,
+    "last_content_update": 1762368972500,
     "read_only": false,
     "read_only_alternatives": []
 }

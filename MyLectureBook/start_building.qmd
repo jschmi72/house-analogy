@@ -1,6 +1,6 @@
 # Chapter 3: 🧱 Planning Your House and Moving It to the Land
 
-Now that your workshop is set up and all your tools are installed, it’s time to **plan the first version of your house** (your Quarto Book) and prepare the **land** (GitHub) where it will stand.
+Now that your workshop is set up and all your tools are installed, it is time to **plan the first version of your house** (your Quarto Book) and prepare the **land** (GitHub) where it will stand.
 
 In this chapter, we will:
 
