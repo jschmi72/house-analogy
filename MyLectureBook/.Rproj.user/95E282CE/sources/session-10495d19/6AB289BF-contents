@@ -5,14 +5,14 @@ Before you can start building your Quarto house, you need to set up your **works
 Just like a real house needs tools, we need a few digital tools too.  
 Here’s what we will install:
 
-- 🧱 **R** – provides building materials and supports Quarto (not always required, but recommended)
+- 🧱 **R** – the hardware store that provides building materials and supports Quarto (not always required, but recommended)
 - 🧰 **RStudio** – your workshop where you write your chapters and edit the blueprint
 - 🏗️ **Quarto** – the civil engineer who builds your house (your book) into a website
-
+- 🚚 **GitHub Desktop** - the delivery truck that transports new building materials and updated blue prints from your workshop to the land.
 
 ---
 
-## Step 1: 🧱 Install R (the building materials)
+## Step 1: 🧱 Install R (the hardware store)
 
 R provides the basic materials that Quarto can use for building your book.
 
@@ -50,7 +50,7 @@ If everything is installed correctly, you will see a confirmation message.
 
 ---
 
-Once you have installed R, RStudio, and Quarto, your **workshop is fully set up** and you’re ready to start building the first walls of your house (your book chapters)!
+Once you have installed R, RStudio, and Quarto, your **workshop is fully set up** and you’re ready to begin! 🧰✨
 
-In the next chapter, we will **create the frame of your house** by starting a new Quarto Book Project.
+In the next chapter, we will **plan your house** (your Quarto book) and prepare the **land and delivery truck** so you can place it online for visitors to explore. 🌍🚚
 

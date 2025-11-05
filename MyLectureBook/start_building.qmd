@@ -1,1 +1,116 @@
-**will follow**
+# Chapter 3: 🧱 Planning Your House and Moving It to the Land
+
+Now that your workshop is set up and all your tools are installed, it’s time to **plan the first version of your house** (your Quarto Book) and prepare the **land** (GitHub) where it will stand.
+
+In this chapter, we will:
+
+- look at the important parts of your workshop,
+- get a **delivery truck** to move your house to the land,
+- buy our **piece of land** on GitHub,
+- and hire a **construction worker** to rebuild your house whenever you update your blueprint.
+
+Let’s begin!
+
+---
+
+## 🧰 What You Will Find in Your Workshop (RStudio)
+
+When you create a Quarto Book project in your workshop, you will see two very important things:
+
+- 📐 **The `_quarto.yml` file**  
+  This is your **blueprint**.  
+  It describes how your house should be built and how the rooms (chapters) should be arranged.
+
+- 🚪 **`.qmd` files**  
+  These are the **rooms of your house** — each `.qmd` file is one chapter or section of your book.
+
+You will write your content inside these `.qmd` files, and adjust the blueprint in `_quarto.yml` as your house grows.
+
+---
+
+## 🚚 Buy the Delivery Truck (Install GitHub Desktop)
+
+To get your blueprints and building materials **from your workshop to the land**, you need a **delivery truck**.
+
+This truck is called **GitHub Desktop**.
+
+It transports your updated files from RStudio (your workshop) to GitHub (your land).
+
+➡️ Download GitHub Desktop here:  
+https://desktop.github.com/
+
+Install it like a regular Windows program (Next → Next → Finish).
+
+Once installed, your delivery truck is ready to use.
+
+---
+
+## 🌍 Buy the Land (Create Your GitHub Account)
+
+Before you can place your house anywhere, you need to **own a piece of land**.
+
+If you don’t have a GitHub account yet, create one:
+
+➡️ https://github.com/
+
+This account is your personal land registry — your plots of land (projects) will be stored here.
+
+---
+
+## 🏡 Prepare a Plot of Land for Your House (Create a Repository)
+
+A **repository** is like a **plot of land** where your house (your book project) will be built.
+
+Once logged into GitHub:
+
+1. Click **“+” → “New repository”**
+2. Give your land a name (e.g., `my-quarto-book`)
+3. Choose **Public** (so visitors can see your house)  
+4. Click **Create repository**
+
+Your land now exists!
+
+---
+
+## 🚚 Move Your House Materials to the Land (Commit & Push)
+
+Your workshop and your land are separate places.  
+The **delivery truck (GitHub Desktop)** moves your house files from the workshop → to your land.
+
+Whenever you change your blueprint or add new rooms:
+
+1. Open **GitHub Desktop**
+2. Write a short summary of what changed  
+   Example: “Added Chapter 2”
+3. Click **Commit to main**
+4. Click **Push origin**  
+   (This sends the materials to the land)
+
+Only then can the construction worker start rebuilding the house.
+
+---
+
+## 👷 Hire the Construction Worker on the Land (Add publish.yml)
+
+The last step is to hire a **construction worker** that lives on your land.
+
+This worker automatically rebuilds your house whenever new materials arrive by truck.
+
+This worker is a small file called:
+.github/workflows/publish.yml
+
+
+
+You will add this file on GitHub once your land and workshop are connected.
+
+This construction worker:
+
+- watches for new deliveries,
+- rebuilds your house,
+- and updates the public version of your house for visitors to see.
+
+---
+
+Once your land is ready, your truck is connected, and your construction worker is hired, you will be able to **publish your house online** so anyone can visit it on the public street (GitHub Pages).
+
+In the next chapter, we will **build your first Quarto House in the workshop** and send it to the land for the first time!

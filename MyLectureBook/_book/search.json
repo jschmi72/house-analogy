@@ -12,11 +12,11 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "2  Chapter 1: 🏠 The House Analogy",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Before we start building our Quarto book and publishing it online, it’s helpful to understand the house analogy that will guide us through the process.\nIn this analogy:\n\n🧱 .qmd files are the bricks and rooms of your house (your book’s content).\n🧰 RStudio is the workshop where you prepare materials and edit the blueprint.\n🏗️ Quarto is the civil engineer who constructs the house (your book).\n🌍 GitHub is the piece of land where you place your house so others can visit it.\n🚧 GitHub Pages is the public street where people can find and walk through your house online.\n📐 The _quarto.yml file is your blueprint describing how your house should be built.\n🛠️ The publish.yml file (in .github/workflows/) is a construction worker living on your land, who rebuilds the house whenever you make changes.\n\nThis analogy will help you understand each step in a friendly and visual way, even if you are completely new to Quarto or GitHub.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: 🏠 The House Analogy</span>"
     ]
   },
   {
@@ -37,6 +37,36 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "3  Chapter 2: 🧰 Setting Up Your Workshop",
+    "section": "",
+    "text": "3.1 Step 1: 🧱 Install R (the building materials)\nBefore you can start building your Quarto house, you need to set up your workshop — the place where you will write your book, prepare your materials, and update your blueprint.\nJust like a real house needs tools, we need a few digital tools too.\nHere’s what we will install:\nR provides the basic materials that Quarto can use for building your book.\n➡️ Download R here:\nhttps://cran.r-project.org/\nChoose your operating system (Windows, macOS, Linux) and follow the installation instructions.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: 🧰 Setting Up Your Workshop</span>"
+    ]
+  },
+  {
+    "objectID": "setup.html#step-2-install-rstudio-your-workshop",
+    "href": "setup.html#step-2-install-rstudio-your-workshop",
+    "title": "3  Chapter 2: 🧰 Setting Up Your Workshop",
+    "section": "3.2 Step 2: 🧰 Install RStudio (your workshop)",
+    "text": "3.2 Step 2: 🧰 Install RStudio (your workshop)\nRStudio is where you will spend most of your time writing your chapters and managing your project.\n➡️ Download RStudio here:\nhttps://posit.co/download/rstudio-desktop/\nInstall it like a regular program (Next → Next → Finish).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: 🧰 Setting Up Your Workshop</span>"
+    ]
+  },
+  {
+    "objectID": "setup.html#step-3-install-quarto-the-civil-engineer",
+    "href": "setup.html#step-3-install-quarto-the-civil-engineer",
+    "title": "3  Chapter 2: 🧰 Setting Up Your Workshop",
+    "section": "3.3 Step 3: 🏗️ Install Quarto (the civil engineer)",
+    "text": "3.3 Step 3: 🏗️ Install Quarto (the civil engineer)\nQuarto is the expert that knows how to build your book into a real website.\n➡️ Download Quarto here:\nhttps://quarto.org/docs/get-started/\nAfter installation, you can check if it works by opening RStudio and typing this in the Console:\nIf everything is installed correctly, you will see a confirmation message.\n\nOnce you have installed R, RStudio, and Quarto, your workshop is fully set up and you’re ready to start building the first walls of your house (your book chapters)!\nIn the next chapter, we will create the frame of your house by starting a new Quarto Book Project.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: 🧰 Setting Up Your Workshop</span>"
     ]
   }
 ]

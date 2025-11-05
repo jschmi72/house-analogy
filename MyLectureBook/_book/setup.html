@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Chapter 1: 🏠 The House Analogy – 🏠 The House Analogy Guide to Quarto &amp; GitHub</title>
+<title>3&nbsp; Chapter 2: 🧰 Setting Up Your Workshop – 🏠 The House Analogy Guide to Quarto &amp; GitHub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./setup.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chapter 1: 🏠 The House Analogy</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./setup.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Chapter 2: 🧰 Setting Up Your Workshop</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -118,13 +118,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chapter 1: 🏠 The House Analogy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./setup.html" class="sidebar-item-text sidebar-link">
+  <a href="./setup.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Chapter 2: 🧰 Setting Up Your Workshop</span></span></a>
   </div>
 </li>
@@ -151,15 +151,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#step-1-install-r-the-building-materials" id="toc-step-1-install-r-the-building-materials" class="nav-link active" data-scroll-target="#step-1-install-r-the-building-materials"><span class="header-section-number">3.1</span> Step 1: 🧱 Install R (the building materials)</a></li>
+  <li><a href="#step-2-install-rstudio-your-workshop" id="toc-step-2-install-rstudio-your-workshop" class="nav-link" data-scroll-target="#step-2-install-rstudio-your-workshop"><span class="header-section-number">3.2</span> Step 2: 🧰 Install RStudio (your workshop)</a></li>
+  <li><a href="#step-3-install-quarto-the-civil-engineer" id="toc-step-3-install-quarto-the-civil-engineer" class="nav-link" data-scroll-target="#step-3-install-quarto-the-civil-engineer"><span class="header-section-number">3.3</span> Step 3: 🏗️ Install Quarto (the civil engineer)</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chapter 1: 🏠 The House Analogy</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Chapter 2: 🧰 Setting Up Your Workshop</span></h1>
 </div>
 
 
@@ -176,20 +184,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Before we start building our Quarto book and publishing it online, it’s helpful to understand the <strong>house analogy</strong> that will guide us through the process.</p>
-<p>In this analogy:</p>
+<p>Before you can start building your Quarto house, you need to set up your <strong>workshop</strong> — the place where you will write your book, prepare your materials, and update your blueprint.</p>
+<p>Just like a real house needs tools, we need a few digital tools too.<br>
+Here’s what we will install:</p>
 <ul>
-<li>🧱 <strong><code>.qmd</code> files</strong> are the <em>bricks and rooms</em> of your house (your book’s content).</li>
-<li>🧰 <strong>RStudio</strong> is the <em>workshop</em> where you prepare materials and edit the blueprint.</li>
-<li>🏗️ <strong>Quarto</strong> is the <em>civil engineer</em> who constructs the house (your book).</li>
-<li>🌍 <strong>GitHub</strong> is the <em>piece of land</em> where you place your house so others can visit it.</li>
-<li>🚧 <strong>GitHub Pages</strong> is the <em>public street</em> where people can find and walk through your house online.</li>
-<li>📐 <strong>The <code>_quarto.yml</code> file</strong> is your <em>blueprint</em> describing how your house should be built.</li>
-<li>🛠️ <strong>The <code>publish.yml</code> file</strong> (in <code>.github/workflows/</code>) is a <em>construction worker</em> living on your land, who rebuilds the house whenever you make changes.</li>
+<li>🧱 <strong>R</strong> – provides building materials and supports Quarto (not always required, but recommended)</li>
+<li>🧰 <strong>RStudio</strong> – your workshop where you write your chapters and edit the blueprint</li>
+<li>🏗️ <strong>Quarto</strong> – the civil engineer who builds your house (your book) into a website</li>
 </ul>
-<p>This analogy will help you understand each step in a friendly and visual way, even if you are completely new to Quarto or GitHub.</p>
+<hr>
+<section id="step-1-install-r-the-building-materials" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="step-1-install-r-the-building-materials"><span class="header-section-number">3.1</span> Step 1: 🧱 Install R (the building materials)</h2>
+<p>R provides the basic materials that Quarto can use for building your book.</p>
+<p>➡️ Download R here:<br>
+https://cran.r-project.org/</p>
+<p>Choose your operating system (Windows, macOS, Linux) and follow the installation instructions.</p>
+<hr>
+</section>
+<section id="step-2-install-rstudio-your-workshop" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="step-2-install-rstudio-your-workshop"><span class="header-section-number">3.2</span> Step 2: 🧰 Install RStudio (your workshop)</h2>
+<p>RStudio is where you will spend most of your time writing your chapters and managing your project.</p>
+<p>➡️ Download RStudio here:<br>
+https://posit.co/download/rstudio-desktop/</p>
+<p>Install it like a regular program (Next → Next → Finish).</p>
+<hr>
+</section>
+<section id="step-3-install-quarto-the-civil-engineer" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="step-3-install-quarto-the-civil-engineer"><span class="header-section-number">3.3</span> Step 3: 🏗️ Install Quarto (the civil engineer)</h2>
+<p>Quarto is the expert that knows how to build your book into a real website.</p>
+<p>➡️ Download Quarto here:<br>
+https://quarto.org/docs/get-started/</p>
+<p>After installation, you can check if it works by opening RStudio and typing this in the Console:</p>
+<p>If everything is installed correctly, you will see a confirmation message.</p>
+<hr>
+<p>Once you have installed R, RStudio, and Quarto, your <strong>workshop is fully set up</strong> and you’re ready to start building the first walls of your house (your book chapters)!</p>
+<p>In the next chapter, we will <strong>create the frame of your house</strong> by starting a new Quarto Book Project.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -594,13 +626,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span>
+      <a href="./intro.html" class="pagination-link" aria-label="Chapter 1: 🏠 The House Analogy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chapter 1: 🏠 The House Analogy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./setup.html" class="pagination-link" aria-label="Chapter 2: 🧰 Setting Up Your Workshop">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Chapter 2: 🧰 Setting Up Your Workshop</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

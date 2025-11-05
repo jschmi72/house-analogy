@@ -4,12 +4,11 @@ Before we start building our Quarto book and publishing it online, it's helpful 
 
 In this analogy:
 
--   🧱 **`.qmd` files** are the *bricks and rooms* of your house (your book’s content).
--   🧰 **RStudio** is the *workshop* where you prepare materials and edit the blueprint.
+-   🧱 **R** is the *hardware store* that provides building materials.
+-   🧰 **RStudio** is the *workshop* where you prepare materials, plan rooms and edit the blueprint.
 -   🏗️ **Quarto** is the *civil engineer* who constructs the house (your book).
--   🌍 **GitHub** is the *piece of land* where you place your house so others can visit it.
+-   🌍 **GitHub** (website) is the *piece of land* where you place your house so others can visit it.
+-   🚚 **GitHub** **Desktop** is the *delivery truck* that delivers materials (your updates) from the workshop to the land.
 -   🚧 **GitHub Pages** is the *public street* where people can find and walk through your house online.
--   📐 **The `_quarto.yml` file** is your *blueprint* describing how your house should be built.
--   🛠️ **The `publish.yml` file** (in `.github/workflows/`) is a *construction worker* living on your land, who rebuilds the house whenever you make changes.
 
 This analogy will help you understand each step in a friendly and visual way, even if you are completely new to Quarto or GitHub.
