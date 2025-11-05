@@ -10,5 +10,11 @@
   },
   "references.qmd": {
     "references.html": "c31a62b0"
+  },
+  "setup.qmd": {
+    "setup.html": "3dea64dd"
+  },
+  "start_building.qmd": {
+    "start_building.html": "384affcd"
   }
 }

@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "🏠 The House Analogy Guide to Quarto & GitHub",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nshort sentence.\n\n1+1\n\n[1] 2",
+    "text": "1 Preface\nWelcome to 🏠 The House Analogy Guide to Quarto & GitHub.\nThis guide will teach beginners how to:\n\nset up Quarto\nbuild a book project\nconnect it to GitHub\npublish it online using GitHub Pages\n\nWe will use a simple house-building analogy to make each step clear and easy to remember.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {

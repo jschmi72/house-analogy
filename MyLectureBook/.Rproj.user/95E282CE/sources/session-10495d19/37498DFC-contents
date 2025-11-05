@@ -1,15 +1,12 @@
-# Preface {.unnumbered}
+# Preface
 
-This is a Quarto book.
+Welcome to **🏠 The House Analogy Guide to Quarto & GitHub**.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This guide will teach beginners how to:
 
-```{r}
-1 + 1
-```
+-   set up Quarto
+-   build a book project
+-   connect it to GitHub
+-   publish it online using GitHub Pages
 
-**short** sentence.
-
-```{r}
-1+1
-```
+We will use a simple **house-building analogy** to make each step clear and easy to remember.

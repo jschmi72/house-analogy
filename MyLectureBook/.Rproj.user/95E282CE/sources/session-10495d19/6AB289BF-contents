@@ -1,0 +1,56 @@
+# Chapter 2: 🧰 Setting Up Your Workshop
+
+Before you can start building your Quarto house, you need to set up your **workshop** — the place where you will write your book, prepare your materials, and update your blueprint.
+
+Just like a real house needs tools, we need a few digital tools too.  
+Here’s what we will install:
+
+- 🧱 **R** – provides building materials and supports Quarto (not always required, but recommended)
+- 🧰 **RStudio** – your workshop where you write your chapters and edit the blueprint
+- 🏗️ **Quarto** – the civil engineer who builds your house (your book) into a website
+
+
+---
+
+## Step 1: 🧱 Install R (the building materials)
+
+R provides the basic materials that Quarto can use for building your book.
+
+➡️ Download R here:  
+https://cran.r-project.org/
+
+Choose your operating system (Windows, macOS, Linux) and follow the installation instructions.
+
+---
+
+## Step 2: 🧰 Install RStudio (your workshop)
+
+RStudio is where you will spend most of your time writing your chapters and managing your project.
+
+➡️ Download RStudio here:  
+https://posit.co/download/rstudio-desktop/
+
+Install it like a regular program (Next → Next → Finish).
+
+---
+
+## Step 3: 🏗️ Install Quarto (the civil engineer)
+
+Quarto is the expert that knows how to build your book into a real website.
+
+➡️ Download Quarto here:  
+https://quarto.org/docs/get-started/
+
+After installation, you can check if it works by opening RStudio and typing this in the Console:
+
+
+
+
+If everything is installed correctly, you will see a confirmation message.
+
+---
+
+Once you have installed R, RStudio, and Quarto, your **workshop is fully set up** and you’re ready to start building the first walls of your house (your book chapters)!
+
+In the next chapter, we will **create the frame of your house** by starting a new Quarto Book Project.
+
