@@ -54,7 +54,7 @@
     "href": "start_building.html",
     "title": "4  Chapter 3: 🧱 Planning Your House and Moving It to the Land",
     "section": "",
-    "text": "4.1 🧰 What You Will Find in Your Workshop (RStudio)\nNow that your workshop is set up and all your tools are installed, it’s time to plan the first version of your house (your Quarto Book) and prepare the land (GitHub) where it will stand.\nIn this chapter, we will:\nLet’s begin!\nWhen you create a Quarto Book project in your workshop, you will see two very important things:\nYou will write your content inside these .qmd files, and adjust the blueprint in _quarto.yml as your house grows.",
+    "text": "4.1 🧰 What You Will Find in Your Workshop (RStudio)\nNow that your workshop is set up and all your tools are installed, it is time to plan the first version of your house (your Quarto Book) and prepare the land (GitHub) where it will stand.\nIn this chapter, we will:\nLet’s begin!\nWhen you create a Quarto Book project in your workshop, you will see two very important things:\nYou will write your content inside these .qmd files, and adjust the blueprint in _quarto.yml as your house grows.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: 🧱 Planning Your House and Moving It to the Land</span>"
     ]
